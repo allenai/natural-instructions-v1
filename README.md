@@ -1,6 +1,6 @@
-# Natural-Instructions 
+# Natural Instructions 
 
-NATURAL-INSTRUCTIONS is a dataset of various NLP tasks and their language instructions. 
+NATURAL INSTRUCTIONS is a dataset of various NLP tasks and their language instructions. 
 We have built this data using existing NLP datasets and the instructions that were used to crowdsource them. 
 
 ## Data 
