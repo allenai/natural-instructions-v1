@@ -10,7 +10,13 @@ You can download the data on this website: https://instructions.apps.allenai.org
 TODO
 
 ## Baselines 
-TODO 
+We have two baselines used in this work:
+
+- GPT-3: we have included the predictions made by our GPT-3 baselines in [`gpt3_output`](gpt3_output). 
+If you want to try GPT-3 yourself, you can ask for API access in [this link](https://openai.com/blog/openai-api/). 
+
+- BART: TODO 
+
 
 ## How to cite
 Feel free to cite us: 
