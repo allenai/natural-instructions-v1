@@ -6,8 +6,19 @@ We have built this data using existing NLP datasets and the instructions that we
 ## Data 
 You can download the data on this website: https://instructions.apps.allenai.org/ 
 
+## Model predictions 
+We have the model predictions for the following models: 
+```
+predictions/gpt3_outputs
+predictions/bart_outputs 
+```
+The BART predictions, in particular, correspond to a model that was trained on a random subset of tasks and evaluated on the remaining ones. 
+
 ## Evaluation script 
-TODO
+The script that we used in our evaluation is included in `src/???`. 
+
+## Encoding the instructions 
+TODO 
 
 ## Baselines 
 We have two baselines used in this work:
