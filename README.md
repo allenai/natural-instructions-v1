@@ -23,9 +23,8 @@ E.g.
 python3 evaluation.py --predictions ../predictions/gpt3_outputs/subtask002_quoref_answer_generation@_Definition_Prompt@0_100.json --dataset ../Dataset_Jsons/subtask002_quoref_answer_generation.json
 Filenames in GPT3_Outputs are of the format [taskname]'@'[instruction encoding]'@'[number of examples]'_'[number of instances].json 
 
-
 ## Encoding the instructions 
-In utils, encodeinstruction function is provided to generate encoded instruction inputs.
+In 'src/utils', encodeinstruction function is provided to generate encoded instruction inputs.
 E.g.
 encodeinstruction('subtask003_mctaco_question_generation_event_duration', instruction_structure =['Definition','Prompt'])
 
@@ -34,8 +33,6 @@ We have two baselines used in this work:
 
 - GPT-3: we have included the predictions made by our GPT-3 baselines in [`gpt3_output`](gpt3_output). 
 If you want to try GPT-3 yourself, you can ask for API access in [this link](https://openai.com/blog/openai-api/). 
-
-- BART: TODO 
 
 
 ## How to cite
