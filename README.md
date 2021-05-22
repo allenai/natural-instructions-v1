@@ -17,7 +17,7 @@ The BART predictions, in particular, correspond to a model that was trained on a
 ## Evaluation script 
 The script that we used in our evaluation is included in `src/evaluation.py`. 
 
-# How to Evaluate
+### How to Evaluate
 It requires dataset file path and the prediction file path
 E.g.  
 python3 evaluation.py --predictions ../predictions/gpt3_outputs/subtask002_quoref_answer_generation@_Definition_Prompt@0_100.json --dataset ../Dataset_Jsons/subtask002_quoref_answer_generation.json
