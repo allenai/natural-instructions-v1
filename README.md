@@ -11,6 +11,7 @@ We have the model predictions for the following models:
 ```
 predictions/gpt3_outputs
 ```
+We will add the BART predictions at a later time. 
 <!-- The BART predictions, in particular, correspond to a model that was trained on a random subset of tasks and evaluated on the remaining ones.  -->
 
 ## Evaluation script 
