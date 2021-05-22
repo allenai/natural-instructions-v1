@@ -21,10 +21,13 @@ The script that we used in our evaluation is included in `src/evaluation.py`.
 It requires dataset file path and the prediction file path
 E.g.  
 python3 evaluation.py --predictions ../predictions/gpt3_outputs/subtask002_quoref_answer_generation@_Definition_Prompt@0_100.json --dataset ../Dataset_Jsons/subtask002_quoref_answer_generation.json
-
-## Encoding the instructions 
 Filenames in GPT3_Outputs are of the format [taskname]'@'[instruction encoding]'@'[number of examples]'_'[number of instances].json 
 
+
+## Encoding the instructions 
+In utils, encodeinstruction function is provided to generate encoded instruction inputs.
+E.g.
+encodeinstruction('subtask003_mctaco_question_generation_event_duration', instruction_structure =['Definition','Prompt'])
 
 ## Baselines 
 We have two baselines used in this work:
