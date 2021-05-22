@@ -23,7 +23,7 @@ E.g.
 python3 evaluation.py --predictions ../predictions/gpt3_outputs/subtask002_quoref_answer_generation@_Definition_Prompt@0_100.json --dataset ../Dataset_Jsons/subtask002_quoref_answer_generation.json
 
 ## Encoding the instructions 
-Filenames in GPT3_Outputs are of the format <taskname>'@'<instruction encoding>'@'<number of examples>'_'<number of instances>.json 
+Filenames in GPT3_Outputs are of the format [taskname]'@'[instruction encoding]'@'[number of examples]'_'[number of instances].json 
 
 
 ## Baselines 
