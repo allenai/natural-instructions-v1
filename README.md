@@ -26,7 +26,7 @@ python3 evaluation.py --predictions ../predictions/gpt3_outputs/subtask002_quore
 Filenames in `predictions/gpt3_outputs` are of the format `[taskname]'@'[instruction encoding]'@'[number of examples]'_'[number of instances].json` 
 
 ## Encoding the instructions 
-In `src/utils/encodeinstruction.py`, encodeinstruction function is provided to generate encoded instruction inputs.
+The [`encoding function`](src/utils/encodeinstruction.py) is provided to generate encoded instruction inputs.
 E.g.
 ```
 encodeinstruction('subtask003_mctaco_question_generation_event_duration', instruction_structure =['Definition','Prompt'])
@@ -37,7 +37,7 @@ We have two baselines used in this work:
 - GPT-3: we have included the predictions made by our GPT-3 baselines in [`gpt3_output`](gpt3_output). 
 If you want to try GPT-3 yourself, you can ask for API access in [this link](https://openai.com/blog/openai-api/). 
 
-- BART: To reproduce our BART predictions, use our [`enncoding function`](src/utils/encodeinstruction.py) and train [`a BART model`](https://github.com/huggingface/transformers/tree/master/examples/legacy/seq2seq) on them
+- BART: To reproduce our BART predictions, use our [`encoding function`](src/utils/encodeinstruction.py) and train [`a BART model`](https://github.com/huggingface/transformers/tree/master/examples/legacy/seq2seq) on them
 
 
 ## How to cite
