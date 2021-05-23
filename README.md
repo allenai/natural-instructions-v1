@@ -37,6 +37,8 @@ We have two baselines used in this work:
 - GPT-3: we have included the predictions made by our GPT-3 baselines in [`gpt3_output`](gpt3_output). 
 If you want to try GPT-3 yourself, you can ask for API access in [this link](https://openai.com/blog/openai-api/). 
 
+- BART: To reproduce our BART predictions, use our enncoding function (`src/utils/encodeinstruction.py`) and train a BART model on them
+
 
 ## How to cite
 Feel free to cite us: 
