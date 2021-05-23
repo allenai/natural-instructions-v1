@@ -10,7 +10,6 @@ You can download the data on this website: https://instructions.apps.allenai.org
 We have the model predictions for the following models: 
 ```
 predictions/gpt3_outputs
-predictions/bart_outputs 
 ```
 The BART predictions, in particular, correspond to a model that was trained on a random subset of tasks and evaluated on the remaining ones. 
 
