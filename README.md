@@ -23,10 +23,10 @@ E.g.
 ```
 python3 evaluation.py --predictions ../predictions/gpt3_outputs/subtask002_quoref_answer_generation@_Definition_Prompt@0_100.json --dataset ../Dataset_Jsons/subtask002_quoref_answer_generation.json
 ```
-Filenames in GPT3_Outputs are of the format [taskname]'@'[instruction encoding]'@'[number of examples]'_'[number of instances].json 
+Filenames in `predictions/gpt3_outputs` are of the format `[taskname]'@'[instruction encoding]'@'[number of examples]'_'[number of instances].json` 
 
 ## Encoding the instructions 
-In 'src/utils', encodeinstruction function is provided to generate encoded instruction inputs.
+In `src/utils/encodeinstruction.py`, encodeinstruction function is provided to generate encoded instruction inputs.
 E.g.
 ```
 encodeinstruction('subtask003_mctaco_question_generation_event_duration', instruction_structure =['Definition','Prompt'])
