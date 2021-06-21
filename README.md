@@ -3,6 +3,8 @@
 Natural-Instructions is a dataset of various NLP tasks and their language instructions. 
 We have built this data using existing NLP datasets and the instructions that were used to crowdsource them. 
 
+- **Update (July 2021):** Help us [expand the instructions](https://github.com/allenai/natural-instructions-expansion)! 
+
 ## Dataset 
 You can download the data on this website: https://instructions.apps.allenai.org/ 
 
