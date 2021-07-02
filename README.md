@@ -42,6 +42,8 @@ If you want to try GPT-3 yourself, you can ask for API access in [this link](htt
 
 - BART: To reproduce our BART predictions, use our [`encoding function`](src/utils/encodeinstruction.py) and train [`a BART model`](https://github.com/huggingface/transformers/tree/master/examples/legacy/seq2seq) on them
 
+## Expanding the data 
+We're expanding this dataset. Help us with the expansion! See the details [here](https://github.com/allenai/natural-instructions-expansion).
 
 
 ## How to cite
